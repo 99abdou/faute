@@ -1,0 +1,230 @@
+
+.team-1 h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: aqua;
+}
+.team-1 h2{
+    color: rgb(86, 178, 40);
+    top: -40px;
+}
+
+
+.home{
+    
+    height: 90vh;
+   
+    background-image: url('img/hero-bg.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ 
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+.navbar{
+    margin-top: 40%;
+}
+
+
+.bac{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 90vh;
+}
+.titre1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.para1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.title{
+    padding-top: 15%;
+}
+.nav-link{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.nav-link:hover,
+.nav-link:active{
+    color: red;
+    background-color: var(--bs-teal);
+}
+/*        Services        */
+
+.texte  h1{
+    font-size: 3em;
+    color: rgb(243, 239, 239);
+}
+
+.text-theme h2{
+    color: #4EB478;
+    position: relative;
+    top: -35px;
+    font-size: 1.8em;
+}
+
+.text-theme p{
+    position: relative;
+    top: -25px;
+    font-size: 1.1em;
+}
+
+.item1 i{
+    font-size: 2.5em;
+}
+
+.item2 i{
+    font-size: 2.5em;
+}
+
+
+
+/*      Portfolio section       */
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.nav a:hover{
+    color: #56B599;
+}
+
+#portfolio .card{
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.card img{
+    width: 100%;
+}
+
+.back{
+    background-image: url(img/testimonials-bg.jpg);
+    height: 500px;
+}
+
+.noir{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 500px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.contact .title{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    color: #4eb478;
+    z-index: 2;
+    position: relative;
+    bottom: 15px;
+    
+}
+.contact span{
+    position: absolute;
+    top: 30px;
+    color: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+.box i{
+    font-size: 32px;
+    color: #4eb478;
+    border: 1px solid #4eb478;
+    border-radius: 20px;
+    width: 20%;
+    height: 20%;
+    padding: 5px;    
+}
+/* .last{
+ background: #f4f4f4;
+} */
+.form-group input:hover{ 
+    border: 1px solid #4eb478;
+}
+.form-group textarea:hover{
+    border: 1px solid #4eb478;
+}
+.submit{
+    background-color: #4eb478;
+    width: 15%;
+    padding: 12px;
+    border-radius: 15px;
+}
+/* contact */
+.join{
+    padding: 50px 0;
+    background: #111111;;
+}
+.h3{
+    font-size: 40px;
+    font-weight: 200;
+}
+.p{
+    font-size: 20px;
+    font-family:serif;
+}
+.join input{
+    width: 40%;
+    padding: 10px;
+    /* border-radius: 0 5px 5px 0; */
+}
+.join button{
+    padding: 13px;
+    width: 12%;
+    /* border-radius: 0 5px 5px 0; */
+    position:relative;
+    right:15px;
+    border: 0;
+    background: #4eb478;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 16px;
+    top:0;
+    bottom:0;
+}
+@media (min-width: 800px){
+    .join button{
+        position: relative;
+        /* left: 0; */
+    }
+    .submit{
+        width: 15%;
+        padding: 12px;
+        height: 15%;
+    }
+}
+
+@media screen and (max-width:778px) {
+    .navbar{
+        margin-top: 150%;
+    }
+    
+
+}
+
